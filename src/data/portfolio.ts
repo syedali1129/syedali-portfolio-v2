@@ -10,7 +10,7 @@ export const portfolioData = {
     phone: "905-626-8901",
     email: "syedalih1996@gmail.com",
     github: "https://github.com/syedali1129",
-    linkedin: "https://linkedin.com/in/syedali1129",
+    linkedin: "https://www.linkedin.com/in/ali-hasan-18913718b",
     resume: "/resume.pdf",
   },
   skills: [
