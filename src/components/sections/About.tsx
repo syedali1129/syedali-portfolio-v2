@@ -27,8 +27,8 @@ export default function About() {
             
             <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden border border-white/10 shadow-2xl glass hover:scale-[1.02] transition-transform duration-500">
               <img 
-                src="/images/tech-setup.jpg" 
-                alt="Data Analyst Tech Setup" 
+                src="/images/coding-night.jpg" 
+                alt="Late Night Coding in Toronto" 
                 className="w-full h-full object-cover"
               />
             </div>
