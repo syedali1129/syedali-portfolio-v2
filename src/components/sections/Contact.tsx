@@ -18,9 +18,18 @@ export default function Contact() {
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-primary/5 blur-[100px] rounded-full z-0" />
           
           <div className="relative z-10">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">
-              Get In <span className="text-gradient">Touch</span>
-            </h2>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-6">
+              <div className="w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden border-4 border-white/10 shadow-xl shrink-0 bg-primary/20">
+                <img 
+                  src="/images/me.jpg" 
+                  alt="Syed Ali Portrait" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-center sm:text-left">
+                Contact <span className="text-gradient">Syed Ali</span>
+              </h2>
+            </div>
             
             <p className="text-gray-400 text-lg mb-10">
               {portfolioData.about.tagline}
